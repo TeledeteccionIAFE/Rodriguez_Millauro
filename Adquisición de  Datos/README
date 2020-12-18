@@ -1,0 +1,14 @@
+Esta carpeta compone la última versión del programa de adquisición de datos en forma remota.
+
+Descripción por archivos:
+- AntenaRpi.py es el programa principal que hay que correr y va a ir llamando a funciones definidas en los otros archivos. 
+
+- MotorMPU.py contiene la función MotorMPU que recibe el ángulo azimutal y la posición de la antena y hace mover al motor llamando a las funciones motorNorte, reorientación e inicializaciónPines.
+
+- MPU9250 lee el magentómetro y calcula los ángulos.
+
+- parpspyfunc_v2.py contiene la función parspy que recibe como argumentos una linea de datos del GPS y el número de satélite. Devuelve el ángulo azimutal, el ángulo de elevación y la intensidad.
+
+- programa2.py contiene las funciones reorientacion, inicializacionPines, motorNorte y motor. reorientacion calcula la posición actual de la antena leyendo el magnetómetro. motorNorte recibe el ángulo del satélite y la posición de la antena, y reorienta al motor los pasos necesarios llamando a la función motor que se encarga de encender las bobinas del mismo.
+
+- datosantenta-33dcb8157510.json es un archivo necesario para el envío de datos por Firebase.
