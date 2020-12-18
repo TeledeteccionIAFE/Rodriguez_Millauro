@@ -8,4 +8,4 @@ En la carpeta "Simulación" se encuentra el código de la simulación realizada 
 En la carpeta "Adquisición de datos" se encuentran los archivos correspondientes al funcionamiento del dispositivo,
 reorientación de la antena, adquisición de datos y envío a la web.
 
-En la carpeta "Análisis de datos" se encuentra el código correspondient al análisis de los datos medidos. 
+En la carpeta "Análisis de datos" se encuentra el código correspondiente al análisis de los datos medidos. 
