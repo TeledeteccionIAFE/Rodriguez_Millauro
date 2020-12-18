@@ -1,0 +1,7 @@
+gps_gsm2.ino es la versión final del código realizado para la simulación del arduino conectado a un receptor GPS y a un SIM900D.
+
+En el setup se inicializan las comunicaciones y se filtran los datos que no nos interesan. 
+
+En el loop, el programa se encarga de leer datos del receptor GPS, clasificar los datos de interes y guardarlos. Luego, son enviados a través de GSM a una página de internet como string.
+
+Por último, se encuentran las funciones definidas que se utilizan en el programa.
