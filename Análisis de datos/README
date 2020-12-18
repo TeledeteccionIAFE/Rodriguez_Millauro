@@ -1,0 +1,10 @@
+Archivo para el análisis de datos
+
+En caso de correr curvs teóricas, la primer parte son las definiciones necesarias.
+
+-parspy ordena datos en formato NMEA-183 y grafica los parametros de interés de un satélite GPS seleccionado
+-filtpy filtra los datos utilizando un filtro tipo Kaiser
+
+Luego se procede al análisis estadístico de datos
+
+Finalmente, se prueba ajustar los datos medidos con la curva teórica utilizando curve_fit
