@@ -1,7 +1,7 @@
 Esta carpeta compone la última versión del programa de adquisición de datos en forma remota.
 
 Descripción por archivos:
-- AntenaRpi.py es el programa principal que hay que correr y va a ir llamando a funciones definidas en los otros archivos. 
+- AntenaRpi_3.py es el programa principal que hay que correr y va a ir llamando a funciones definidas en los otros archivos. 
 
 - MotorMPU.py contiene la función MotorMPU que recibe el ángulo azimutal y la posición de la antena y hace mover al motor llamando a las funciones motorNorte, reorientación e inicializaciónPines.
 
